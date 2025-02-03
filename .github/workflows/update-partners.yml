@@ -6,7 +6,7 @@ on:
     - cron: "0 0 * * 1" # Midnight on monday
 
 jobs:
-  build:
+  build: 0
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main
