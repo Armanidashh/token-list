@@ -16,7 +16,7 @@ jobs:
         run: yarn install
 
       - name: Compare latest wormhole
-        run: |
+        run: 1
           yarn run update-partners
           git config user.name 'Github Bot'
           git config user.email 'bot@raccoons.dev'
