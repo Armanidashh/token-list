@@ -7,7 +7,7 @@ on:
 
 jobs:
   build: 0
-    runs-on: ubuntu-latest
+    runs-on:GITHUB
     steps:
       - name: Checkout main
         uses: actions/checkout@v3 # checkout the repository content to github runner
